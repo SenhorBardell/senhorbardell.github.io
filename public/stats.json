@@ -1,0 +1,80 @@
+{
+  "assetsByChunkName": {
+    "path---jobs-moshimoshi": [
+      "path---jobs-moshimoshi-a0e39f21c11f6a62c5ab.js",
+      "path---jobs-moshimoshi-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-jobs-moshimoshi-js": [
+      "component---src-pages-jobs-moshimoshi-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-jobs-moshimoshi-js-075954cd9c4544c7dcd8.js.map"
+    ],
+    "path---jobs-redq": [
+      "path---jobs-redq-a0e39f21c11f6a62c5ab.js",
+      "path---jobs-redq-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-jobs-redq-js": [
+      "component---src-pages-jobs-redq-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-jobs-redq-js-075954cd9c4544c7dcd8.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-651ed012aa4037acd999.js",
+      "component---src-pages-index-js-651ed012aa4037acd999.js.map"
+    ],
+    "path---jobs-upwork": [
+      "path---jobs-upwork-a0e39f21c11f6a62c5ab.js",
+      "path---jobs-upwork-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----759cb0014dc2edf2f8dd.js",
+      "path----759cb0014dc2edf2f8dd.js.map"
+    ],
+    "path---jobs-ambulnz": [
+      "path---jobs-ambulnz-a0e39f21c11f6a62c5ab.js",
+      "path---jobs-ambulnz-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-44de2fefdbcac1e349bf.js",
+      "component---src-layouts-index-js-44de2fefdbcac1e349bf.js.map"
+    ],
+    "path---page-2": [
+      "path---page-2-a0e39f21c11f6a62c5ab.js",
+      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-ebf84e1593b8a6d5bb2d.js",
+      "commons-ebf84e1593b8a6d5bb2d.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-page-2-js": [
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
+    ],
+    "app": [
+      "app-7548850216fe42144f65.js",
+      "app-7548850216fe42144f65.js.map"
+    ],
+    "component---src-pages-jobs-upwork-js": [
+      "component---src-pages-jobs-upwork-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-jobs-upwork-js-075954cd9c4544c7dcd8.js.map"
+    ],
+    "component---src-pages-jobs-ambulnz-js": [
+      "component---src-pages-jobs-ambulnz-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-jobs-ambulnz-js-075954cd9c4544c7dcd8.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}

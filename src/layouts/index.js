@@ -22,7 +22,16 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    />
+    >
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122993778-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122993778-1');
+      </script>
+  </Helmet>
   <div>{children()}</div>
   </div>
 )

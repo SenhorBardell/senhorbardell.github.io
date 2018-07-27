@@ -25,11 +25,17 @@ const Layout = ({ children, data }) => (
     >
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122993778-1"></script>
       <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
+        {`<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122993778-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        gtag('config', 'UA-122993778-1');
+  gtag('config', 'UA-122993778-1');
+</script>
+
+`}
       </script>
   </Helmet>
   <div>{children()}</div>

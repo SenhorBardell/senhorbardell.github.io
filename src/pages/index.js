@@ -92,13 +92,13 @@ const IndexPage = props => {
               <ListItem button>
                 {/*<ListItemIcon><InboxIcon/></ListItemIcon>*/}
                 <ListItemText secondary="freelance as senior software engineer">
-                  <a className={classes.link} href="/jobs/upwork">Upwork</a>
+                  <a className={classes.link} href="https://www.upwork.com/freelancers/~01806f74d5eff33ba9">Upwork</a>
                 </ListItemText>
               </ListItem>
               <ListItem button>
                 {/*<ListItemIcon><InboxIcon/></ListItemIcon>*/}
                 <ListItemText secondary="lead software engineer">
-                  <a className={classes.link} href="/jobs/proovela">Proovelab</a>
+                  <a className={classes.link}>Proovelab</a>
                 </ListItemText>
               </ListItem>
               <ListItem button>

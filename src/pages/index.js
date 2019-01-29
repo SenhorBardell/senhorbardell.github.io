@@ -6,10 +6,7 @@ import List from '@material-ui/core/List'
 import Button from '@material-ui/core/Button'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
-import ListItemIcon from '@material-ui/core/ListItemIcon'
-import InboxIcon from '@material-ui/icons/Inbox';
 import { withStyles } from '@material-ui/core/styles';
-import Link from 'gatsby-link'
 import Typography from '@material-ui/core/Typography'
 
 const styles = theme => ({
@@ -30,15 +27,17 @@ const styles = theme => ({
 })
 
 const IndexPage = props => {
-  const {classes} = props
+  const { classes } = props
 
   return (
     <div className={classes.root}>
+        <Paper elevation={1} className={classes.paper}>
+        <Paper elevation={0} className={classes.paper}>
+        <Typography variant="title">Vlad Rimsha</Typography>
+        </Paper>
       <Grid container alignContent="flex-start">
-        <Grid item xs={12} md={4}>
-          <Paper className={classes.paper}>
-            <Typography variant="title">Vlad Rimsha</Typography>
-            <img src="/static/profile_picture.jpg" width="100%" alt=""/>
+          <Grid item xs={12} md={4}>
+            <img src="/static/profile_picture.jpg" width="95%" alt="" />
 
             <Typography variant="body1">
               Language agnostic software engineer since 2008.
@@ -47,12 +46,12 @@ const IndexPage = props => {
               Traveling nomad and languages lover.
             </Typography>
 
-            <Button color="primary" href="https://goo.gl/forms/rHpdQkq9BC0UvQd22">Contact me</Button>
+            <p>
+              <Button variant="extendedFab" color="secondary" href="https://goo.gl/forms/rHpdQkq9BC0UvQd22">Contact me</Button>
+            </p>
 
-          </Paper>
-        </Grid>
-        <Grid item xs={12} md={4} lg={2}>
-          <Paper className={classes.paper}>
+          </Grid>
+          <Grid item xs={12} md={4} lg={2}>
             <Typography variant="headline">Footprint</Typography>
             <List>
               <ListItem button>
@@ -65,12 +64,25 @@ const IndexPage = props => {
                 <ListItemText><a className={classes.link} href="https://github.com/senhorbardell">GitHub</a></ListItemText>
               </ListItem>
             </List>
-          </Paper>
-        </Grid>
-        <Grid item xs={12} md={4} lg={3}>
-          <Paper className={classes.paper}>
+          </Grid>
+          <Grid item xs={12} md={4} lg={3}>
             <Typography variant="headline">Some guys</Typography>
             <List>
+              <ListItem button>
+                <ListItemText secondary="senior react native developer/consultant">
+                  <a className={classes.link} href="https://www.crowdbotics.com/">Crowdbotics</a>
+                </ListItemText>
+              </ListItem>
+              <ListItem button>
+                <ListItemText secondary="outsource development&consultancy">
+                  <a className={classes.link} href="https://www.ajaib.co.id/">Ajaib investment</a>
+                </ListItemText>
+              </ListItem>
+              <ListItem button>
+                <ListItemText secondary="outsource development&consultancy">
+                  <a className={classes.link} href="http://www.ready2meet.com/">Ready to meet dating</a>
+                </ListItemText>
+              </ListItem>
               <ListItem button>
                 {/*<ListItemIcon><InboxIcon/></ListItemIcon>*/}
                 <ListItemText secondary="lead software engineer">
@@ -108,10 +120,8 @@ const IndexPage = props => {
                 </ListItemText>
               </ListItem>
             </List>
-          </Paper>
-        </Grid>
-        <Grid item xs={12} md={4} lg={3}>
-          <Paper className={classes.paper}>
+          </Grid>
+          <Grid item xs={12} md={4} lg={3}>
             <Typography variant="headline">Random letters</Typography>
             <List>
               <ListItem>
@@ -120,7 +130,7 @@ const IndexPage = props => {
               </ListItem>
               <ListItem>
                 {/*<ListItemIcon><InboxIcon/></ListItemIcon>*/}
-                <ListItemText primary="JS" secondary="Fullstack, NodeJS, ES8, React, Angular, Cordova, Phonegap, ReactNative" />
+                <ListItemText primary="JS" secondary="Fullstack, NodeJS, ES8, React, Angular, Cordova, Phonegap, ReactNative, Express, Koa" />
               </ListItem>
               <ListItem>
                 {/*<ListItemIcon><InboxIcon/></ListItemIcon>*/}
@@ -128,17 +138,18 @@ const IndexPage = props => {
               </ListItem>
               <ListItem>
                 {/*<ListItemIcon><InboxIcon/></ListItemIcon>*/}
-                <ListItemText primary="Other" secondary="Spark, Go, Java, Android" />
+                <ListItemText primary="Other" secondary="Spark, Go, Java, Android, Kotlin, Dart, Flutter" />
               </ListItem>
             </List>
-          </Paper>
-        </Grid>
+          </Grid>
       </Grid>
+        </Paper>
     </div>
-  )}
+  )
+}
 
-  IndexPage.propTypes = {
-    classes: PropTypes.object.isRequired
-  }
+IndexPage.propTypes = {
+  classes: PropTypes.object.isRequired
+}
 
-  export default withStyles(styles)(IndexPage)
+export default withStyles(styles)(IndexPage)
